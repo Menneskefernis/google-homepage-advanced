@@ -102,6 +102,7 @@ nav {
     margin: 0 10px;
     padding: 5px;
     display: flex;
+    font-size: 13px;
 }
 
 .result-links li:first-child {
@@ -116,6 +117,7 @@ main {
     margin: 26px 0 0 180px;
     font-size: 13px;
     border-top: 1px rgba(0, 0, 0, 0.1) solid;
+    width: 630px;
 }
 
 main p {
@@ -124,8 +126,7 @@ main p {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -153,4 +154,107 @@ footer ul li {
 
 .info {
     float: left;
+}
+
+.privacy-notification {
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    padding: 15px;
+    margin-left: -20px;
+    border-radius: 8px;
+}
+
+.privacy-notification div {
+    display: flex;
+    align-items: center;
+}
+
+.privacy-notification div p {
+    font-size: 22px;
+    color: black;
+    margin-left: 20px;
+}
+
+.privacy-notification a {
+    margin-left: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #4285f4;
+}
+
+.privacy-notification button {
+    margin-left: 15px;
+    padding: 10px;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.search-result {
+    margin-top: 30px;
+}
+
+.search-result h2 {
+    font-weight: normal;
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+.search-result span {
+    border: 1px green solid;
+    border-radius: 3px;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: green;
+}
+
+.search-result p {
+    color: rgb(0, 0, 0, 0.7);
+    line-height: 1.6;
+}
+
+.search-result .website-deeplinks {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.search-result .website-deeplinks div {
+    width: 240px;
+}
+
+.faq {
+    margin: 30px 0 0 -20px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 10px;
+}
+
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px rgba(0, 0, 0, 0.1) solid;;
+}
+
+.faq div {
+    padding: 15px;
+}
+
+.faq h2 {
+    font-weight: normal;
+}
+
+.faq p {
+    font-size: 18px;
+    line-height: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.faq svg {
+    width: 15px;
 }
