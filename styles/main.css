@@ -114,13 +114,17 @@ nav {
 }
 
 main {
-    margin: 26px 0 0 180px;
-    font-size: 13px;
     border-top: 1px rgba(0, 0, 0, 0.1) solid;
-    width: 630px;
+    margin-top: 26px;
 }
 
-main p {
+.results-area {
+    font-size: 13px;
+    width: 630px;
+    margin-left: 180px;
+}
+
+.results-area p {
     color: rgba(0, 0, 0, 0.55);
     padding: 10px 0;
 }
@@ -159,6 +163,7 @@ footer ul li {
 .privacy-notification {
     border: 1px rgba(0, 0, 0, 0.1) solid;
     padding: 15px;
+    margin-top: 10px;
     margin-left: -20px;
     border-radius: 8px;
 }
