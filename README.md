@@ -1,1 +1,1 @@
-This is my very first project in ... The Odin Project. I wonder where this is gonna take me :|
+Still first Odin Project project. This time the "advanced" version of the Google homepage - the one with search results.
